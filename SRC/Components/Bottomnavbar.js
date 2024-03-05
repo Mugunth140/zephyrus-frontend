@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     container: {
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'space-evenly',
+        justifyContent: 'space-around',
         backgroundColor: "#111111",
         borderTopLeftRadius: 20,
         borderTopRightRadius: 20,
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     activeicons1: {
         backgroundColor: 'white',
         borderRadius: 50,
-        fontSize: 30,
-        padding: 10,
+        fontSize: 28,
+        padding: 8,
     }
 })

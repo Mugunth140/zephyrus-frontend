@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, Image, TextInput, ActivityIndicator} from 'react-native'
 import React from 'react'
+import app from "../../../../assets/app.png"
 import logo from '../../../../assets/logo.png'
 import { containerFull, hr80, logo1 } from '../../../CommonCss/pagecss'
 import { formbtn, formHead, formInput, formTextLinkCenter, formTextLinkRight } from '../../../CommonCss/formcss'
@@ -47,6 +48,7 @@ const Login = ({ navigation }) => {
     }
     return (
         <View style={containerFull}>
+             <Image source={app} style={logo1} />
             <Image source={logo} style={logo1} />
             <Text style={formHead}>Login</Text>
             <TextInput placeholder="Enter Your Email" style={formInput}
