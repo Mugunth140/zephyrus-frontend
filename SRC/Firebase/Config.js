@@ -4,13 +4,14 @@ import 'firebase/compat/storage';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD9DgWnrKcKAsN9qXi_jPSvwtzc9ldRgtU",
-    authDomain: "geekchat1-bacd8.firebaseapp.com",
-    projectId: "geekchat1-bacd8",
-    storageBucket: "geekchat1-bacd8.appspot.com",
-    messagingSenderId: "561479870115",
-    appId: "1:561479870115:web:df3b2725e21206a2fe0116"
-};
+    apiKey: "AIzaSyDwytPhsUww0nT9bvNUQqcU6FgANQ6KcPk",
+    authDomain: "zephyrus-e95cb.firebaseapp.com",
+    projectId: "zephyrus-e95cb",
+    storageBucket: "zephyrus-e95cb.appspot.com",
+    messagingSenderId: "686625347192",
+    appId: "1:686625347192:web:0c4c8ff476299c9ac9bf8d",
+    measurementId: "G-2PWBCN15LY"
+  };
 
 
 if (!firebase.apps.length) {
