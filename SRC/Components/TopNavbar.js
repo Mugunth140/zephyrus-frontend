@@ -5,14 +5,16 @@ import { icons1, logo2 } from '../CommonCss/pagecss'
 import { Ionicons } from '@expo/vector-icons';
 import { MaterialIcons } from '@expo/vector-icons';
 
-const TopNavbar = ({ navigation, page }) => {
 
+
+const TopNavbar = ({ navigation, page }) => {
+   
     // console.log(page)
     return (
         <View style={styles.container}>
             <MaterialIcons name="library-add" size={24} color="black" style={icons1}
-                onPress={() => navigation.navigate('AddPost')} />
-
+                onPress={() => navigation.navigate('AddPost')} navigation={navigation} />
+                 
             <Image source={logo} style={logo2} />
             {
                 page === 'MainPage' &&

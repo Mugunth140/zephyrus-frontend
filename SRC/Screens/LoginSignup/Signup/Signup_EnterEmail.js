@@ -33,7 +33,6 @@ const Signup_EnterEmail = ({ navigation }) => {
                         }
                         else if (data.message === "Verification Code Sent to your Email") {
                             setLoading(false)
-                            alert(data.message);
                             navigation.navigate('Signup_EnterVerificationCode', {
                                 useremail: data.email,
                                 userVerificationCode: data.VerificationCode

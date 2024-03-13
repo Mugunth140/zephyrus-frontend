@@ -16,7 +16,6 @@ const Signup_EnterVerificationCode = ({ navigation, route }) => {
             alert('Invalid Verification Code')
         }
         else if (verificationCode == userVerificationCode) {
-            alert('Verification Code Matched')
             navigation.navigate('Signup_ChooseUsername', { email: useremail })
         }
         else {

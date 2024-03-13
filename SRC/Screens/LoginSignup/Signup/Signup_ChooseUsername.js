@@ -31,7 +31,6 @@ const Signup_ChooseUsername = ({ navigation, route }) => {
                     data => {
                         if (data.message === "Username Available") {
                             setLoading(false)
-                            alert('Username has been set successfully')
                             navigation.navigate('Signup_ChoosePassword', { email: email, username: username })
                         }
                         else {

@@ -6,10 +6,11 @@ import { formbtn, formHead, formHead2, formHead3, formInput, formTextLinkCenter,
 import { MaterialIcons } from '@expo/vector-icons';
 import { firebase } from '../../Firebase/Config'
 import * as ImagePicker from 'expo-image-picker';
+import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const AddPost = ({ navigation }) => {
-
+const AddPost = () => {
+    const navigation = useNavigation();
     const [postdescription, setpostdescription] = useState('')
 
     const [loading1, setLoading1] = useState(false)

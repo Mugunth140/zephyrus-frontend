@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Geekchat",
-    "slug": "Geekchat",
+    "name": "Zephyrus",
+    "slug": "Mugunth",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.zephyrus"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "03a525b7-f6d2-46ba-8ccd-92ffcaafc6ab"
+      }
     }
   }
 }
