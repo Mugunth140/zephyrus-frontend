@@ -18,7 +18,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zephyrus"
     },
     "android": {
       "adaptiveIcon": {
@@ -32,7 +33,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "03a525b7-f6d2-46ba-8ccd-92ffcaafc6ab"
+        "projectId": "bde31fa1-346b-45e0-a9b9-82ac0f5b36ab"
       }
     }
   }
